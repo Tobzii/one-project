@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+
+.lest-text {
+    display: flex;
+}
+
