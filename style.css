@@ -1,8 +1,59 @@
 body {
-    margin: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
 }
 
-.lest-text {
-    display: flex;
+.items {
+  margin: 0px 200px 0px 200px;
 }
 
+ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.shapka {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.left-1 {
+  display: flex;
+  margin-right: 1050px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.image-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.info-2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.info-3 {
+  height: 150px;
+  background-color: aqua;
+  margin-top: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 400px;
+}
